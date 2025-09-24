@@ -1,16 +1,29 @@
-# React + Vite
+# Project 1 - Community Board: Software Engineering Resources
+This project is a community resource board created with React and Vite. It serves as a curated list of popular software engineering frameworks, libraries, and runtimes, providing a quick overview and direct links to their official websites.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# GIF Walkthrough
+<!-- Add your GIF walkthrough here! -->
 
-Currently, two official plugins are available:
+# Features
+## Required Features
+[x] Cohesive Theme: The app has a unique theme for resources relevant to software engineers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[x] Header/Title: A clear title describing the theme is displayed.
 
-## React Compiler
+[x] 10+ Unique Items: At least 10 unique software engineering resources are displayed.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[x] Organized Card Format: The cards are displayed in a responsive grid format.
 
-## Expanding the ESLint configuration
+[x] Card Information: Each card includes the name, category, and a brief description of the resource.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Stretch Features
+[x] Buttons/Links on Cards: Each card has a styled button that links to the official website for that resource.
+
+[ ] Mobile Responsiveness: The site is responsive and usable for both desktop and mobile formats.
+
+# Resources Used
+React
+
+Vite
+
+GitHub
