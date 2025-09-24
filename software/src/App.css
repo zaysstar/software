@@ -1,0 +1,72 @@
+/* General styles for the whole page */
+@font-face {
+  font-family: 'Helly'; /* This is the name you'll use for the font in your CSS */
+  src: url('./assets/HelveticaforTarget-Bold.ttf') format('ttf'); /* The path to your font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helly'; /* Use the custom font */
+  background-color: #fff0f5; /* A light, creamy pink */
+}
+
+/* Styles for the main app container */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styles for the main title */
+.App h1 {
+  color: #a11f5c; /* A deep, raspberry pink */
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+/* This is the container that holds all your cards */
+.card-container {
+  display: flex; /* Use Flexbox to arrange cards */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+  justify-content: center; /* Center the cards horizontally */
+  gap: 20px; /* Add space between the cards */
+  padding: 0 20px; /* Add some padding on the sides */
+}
+
+/* Styles for each individual card */
+.card {
+  background-color: white;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow to lift the card off the page */
+  width: 280px;
+  overflow: hidden; /* Ensures the image corners are rounded too */
+  transition: transform 0.2s ease-in-out; /* A smooth animation for hovering */
+}
+
+/* Make the card slightly larger when you hover over it */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Styles for the image inside the card */
+.card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover; /* Prevents the image from stretching */
+}
+
+/* Styles for the flavor name (the h2 tag) */
+.card h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin: 15px 0 10px;
+}
+
+/* Styles for the flavor description (the p tag) */
+.card p {
+  color: #666;
+  font-size: 1rem;
+  padding: 0 15px 20px;
+  margin: 0;
+}
