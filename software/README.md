@@ -2,7 +2,8 @@
 This project is a community resource board created with React and Vite. It serves as a curated list of popular software engineering frameworks, libraries, and runtimes, providing a quick overview and direct links to their official websites.
 
 # GIF Walkthrough
-c:\Users\Izayah Rahming\Downloads\gif (2).gif
+![gif (2)](https://github.com/user-attachments/assets/cc120900-a3cd-4327-82b3-44fd8e9bf824)
+
 
 # Features
 ## Required Features
